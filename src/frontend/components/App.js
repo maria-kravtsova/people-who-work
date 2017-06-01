@@ -1,14 +1,15 @@
 import React, { Component } from "react";
-import "./App.css";
+import "../stylesheets/App.css";
 import injectTapEventPlugin from "react-tap-event-plugin";
 import RaisedButton from "material-ui/RaisedButton";
 import MuiThemeProvider from "material-ui/styles/MuiThemeProvider";
+import HorizontalNonLinearStepper from "./Test";
 
 class App extends Component {
   render() {
     return (
       <MuiThemeProvider>
-        <RaisedButton label="Primary" primary={true} />
+        <HorizontalNonLinearStepper/>
       </MuiThemeProvider>
     );
   }

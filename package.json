@@ -3,7 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "axios": "^0.16.1",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "foreman": "^2.0.0",
+    "marked": "^0.3.6",
     "material-ui": "^0.18.1",
+    "mongoose": "^4.10.4",
+    "nodemon": "^1.11.0",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-tap-event-plugin": "^2.0.1"
